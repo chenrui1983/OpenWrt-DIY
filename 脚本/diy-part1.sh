@@ -24,3 +24,6 @@ rm -rf ../lean/luci-theme-argon
 # Svn checkout packages from immortalwrt's repository
 git clone --depth=1 https://github.com/immortalwrt/packages -b openwrt-18.06 packages
 git clone --depth=1 https://github.com/immortalwrt/luci -b openwrt-18.06 luci
+
+#kuoruan
+git clone https://github.com/kuoruan/openwrt-v2ray.git package/v2ray-core
